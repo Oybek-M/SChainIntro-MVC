@@ -1,7 +1,19 @@
+using Microsoft.EntityFrameworkCore;
+using SChainIntro_MVC.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+// Connection String | DataBase with MySQL:
+var connectionString = builder.Configuration.GetConnectionString("LocalDB");
+builder.Services.AddDbContext<AppDbContext>(options =>
+{
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+});
+
 
 var app = builder.Build();
 
