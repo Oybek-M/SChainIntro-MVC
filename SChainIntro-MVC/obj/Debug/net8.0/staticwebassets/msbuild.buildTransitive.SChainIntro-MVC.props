@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/SChainIntro-MVC.props" />
+</Project>
