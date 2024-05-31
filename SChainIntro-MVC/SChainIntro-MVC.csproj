@@ -8,11 +8,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Data\Interfaces\" />
-      <Folder Include="Data\Repositories\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0-preview.4.24267.1" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0-preview.4.24267.1">
         <PrivateAssets>all</PrivateAssets>
