@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "21BGKM5JidE=",
+  "dgSpecHash": "kSxOeJBP+ag=",
   "success": true,
   "projectFilePath": "C:\\Users\\oybek\\OneDrive\\Hujjatlar\\All of Projects on Prog\\Job\\SChainIntro-MVC\\SChainIntro-MVC\\SChainIntro-MVC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\oybek\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
     "C:\\Users\\oybek\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\oybek\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\oybek\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.4\\microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512",
