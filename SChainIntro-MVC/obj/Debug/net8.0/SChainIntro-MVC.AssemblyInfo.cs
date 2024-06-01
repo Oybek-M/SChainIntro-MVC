@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SChainIntro-MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac8098dd67cc33092592363a444c5266e140d3e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+308fcce01ff5af9274f08a84ad617ebfb38d7ba2")]
 [assembly: System.Reflection.AssemblyProductAttribute("SChainIntro-MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SChainIntro-MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

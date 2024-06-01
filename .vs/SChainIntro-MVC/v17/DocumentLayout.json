@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\oybek\\OneDrive\\Hujjatlar\\All of Projects on Prog\\Job\\SChainIntro-MVC\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\onedrive\\hujjatlar\\all of projects on prog\\job\\schainintro-mvc\\schainintro-mvc\\bll\\common\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\bll\\common\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\onedrive\\hujjatlar\\all of projects on prog\\job\\schainintro-mvc\\schainintro-mvc\\bll\\common\\exceptions\\validatorexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\bll\\common\\exceptions\\validatorexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,37 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\oybek\\OneDrive\\Hujjatlar\\All of Projects on Prog\\Job\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\Common\\Security\\PasswordHasher.cs",
-              "RelativeDocumentMoniker": "SChainIntro-MVC\\BLL\\Common\\Security\\PasswordHasher.cs",
-              "ToolTip": "C:\\Users\\oybek\\OneDrive\\Hujjatlar\\All of Projects on Prog\\Job\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\Common\\Security\\PasswordHasher.cs",
-              "RelativeToolTip": "SChainIntro-MVC\\BLL\\Common\\Security\\PasswordHasher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T11:50:06.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ValidatorException.cs",
-              "DocumentMoniker": "C:\\Users\\oybek\\OneDrive\\Hujjatlar\\All of Projects on Prog\\Job\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\Common\\Exceptions\\ValidatorException.cs",
-              "RelativeDocumentMoniker": "SChainIntro-MVC\\BLL\\Common\\Exceptions\\ValidatorException.cs",
-              "ToolTip": "C:\\Users\\oybek\\OneDrive\\Hujjatlar\\All of Projects on Prog\\Job\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\Common\\Exceptions\\ValidatorException.cs",
-              "RelativeToolTip": "SChainIntro-MVC\\BLL\\Common\\Exceptions\\ValidatorException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T11:46:42.197Z",
-              "EditorCaption": ""
             }
           ]
         }
