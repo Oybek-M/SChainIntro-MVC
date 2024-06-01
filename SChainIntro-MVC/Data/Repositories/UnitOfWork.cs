@@ -1,11 +1,21 @@
 using SChainIntro_MVC.Data.Interfaces;
 
+
 namespace SChainIntro_MVC.Data.Repositories;
 
 public class UnitOfWork(AppDbContext appDbContext) : IUnitOfWork
 {
-    private readonly AppDbContext _appDbContext = appDbContext;
+    public AppDbContext DbContext = appDbContext;
 
-    public IPostRepository Post = new PostRepository(_appDbContext);
+
+    public IPostRepository Posts => new PostRepository(DbContext);
+
+    public IServiceRepository Services => new ServiceRepository(DbContext);
+
+    public IPartnerRepository Partners => new PartnerRepository(DbContext);
+
+    public IUserRepository Users => new UserRepository(DbContext);
+
+    public IVideoRepository Videos => new VideoRepository(DbContext);
 }
 
