@@ -8,13 +8,13 @@ public class PostDto
     public bool IsActive { get; set; }
     public DateTime CreatedAt { get; set; }
     public bool IsEdited { get; set; }
-    public DateTime EditedTime { get; set; }
+    public DateTime EditedAt { get; set; }
 
 
     public int CreatorId { get; set; }
-    public string FilePath { get; set; } = string.Empty;
-    public string Title { get; set; } = string.Empty;
-    public string Content { get; set; } = string.Empty;
+    public string FilePath { get; set; }
+    public string Title { get; set; }
+    public string Content { get; set; }
     public int Views {  get; set; }
     public int Likes { get; set; }
     public int DisLikes {  get; set; }
@@ -29,7 +29,7 @@ public class PostDto
             IsActive = post.IsActive,
             CreatedAt = post.CreatedAt,
             IsEdited = post.IsEdited,
-            EditedTime = post.EditedTime,
+            EditedAt = post.EditedAt,
 
             CreatorId = post.CreatorID,
             FilePath = post.FilePath,   
