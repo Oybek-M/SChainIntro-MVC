@@ -6,5 +6,5 @@ public class Base
     public bool IsActive { get; set; } = true;
     public DateTime CreatedAt { get; set; } = DateTime.Now;
     public bool IsEdited { get; set; } = false;
-    public DateTime EditedTime { get; set; } = DateTime.Now;
+    public DateTime EditedAt { get; set; } = DateTime.Now;
 }

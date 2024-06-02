@@ -7,5 +7,4 @@ public class Service : Base
     public string Title { get; set; } = string.Empty; // Service`s title
     public List<string> Description { get; set; } = new(); // Service`s Descriptions
     public string BgColor { get; set; } = "#c0ebf1"; // Background-color
-    public bool IsActive { get; set; } = true; // This Service is Active now ?
 }
