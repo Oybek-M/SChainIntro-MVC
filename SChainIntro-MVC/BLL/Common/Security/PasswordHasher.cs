@@ -1,13 +1,14 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 using System;
+using System.Net.WebSockets;
 
 
 namespace SChainIntro_MVC.BLL.Common.Security;
 
 public static class PasswordHasher
 {
-    public static string GetHash(string password)
+    public static string GetHashPassword(string password)
     {
         using (SHA256 sha256 = SHA256.Create())
         {
@@ -22,5 +23,10 @@ public static class PasswordHasher
 
             return stringBuilder.ToString();
         }
+    }
+
+    public static bool VerifyPassword(string password, string hashedPassword)
+    {
+        return GetHashPassword(password) == hashedPassword;
     }
 }

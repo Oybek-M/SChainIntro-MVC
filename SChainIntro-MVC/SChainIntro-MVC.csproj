@@ -23,8 +23,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="BLL\Interfaces\" />
-      <Folder Include="BLL\Services\" />
       <Folder Include="wwwroot\VideoFiles\" />
       <Folder Include="wwwroot\PostFiles\" />
       <Folder Include="wwwroot\StaticFiles\" />
