@@ -11,7 +11,7 @@ public class PartnerDto
     public DateTime EditedTime { get; set; }
 
 
-    public int CreatorId { get; set; }
+    public string CreatorId { get; set; }
     public string ImagePath { get; set; }
     public string Name { get; set; }
     public string Type { get; set; }

@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Http;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Pomelo.EntityFrameworkCore.MySql.Storage.Internal.Json;
+using System.Security.Claims;
 
 namespace SChainIntro_MVC.BLL.Services
 {
@@ -68,20 +69,15 @@ namespace SChainIntro_MVC.BLL.Services
                 throw new StatusCodeException(HttpStatusCode.NotImplemented, "AddPartnerDto is null");
             }
 
+
             var imagePath = await _fileService.UploadFile("Partners", addPartnerDto.Image);
-
-            // Foydalanuvchi ID sini olish
-            var creatorId = _httpContextAccessor.HttpContext?.User.Identity.Name;
-            if (string.IsNullOrEmpty(creatorId))
-            {
-                throw new StatusCodeException(HttpStatusCode.Unauthorized, "User is not authenticated");
-            }
-
+            // Foydalanuvchi ID sini 
+            var creatorId = _httpContextAccessor.HttpContext.User.Claims.First(u => u.Type == ClaimTypes.NameIdentifier).Value;
             Partner newPartner = new Partner()
             {
                 IsActive = true,
                 CreatedAt = DateTime.UtcNow,
-                CreatorId = 1, // Fix qilish kk
+                CreatorId = creatorId, // Fix qilish kk
                 IsEdited = false,
                 EditedAt = DateTime.UtcNow,
                 ImagePath = imagePath,
