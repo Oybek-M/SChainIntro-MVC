@@ -3,7 +3,7 @@ using SChainIntro_MVC.Data.Enums;
 
 namespace SChainIntro_MVC.BLL.DTOs.UserDto;
 
-public class UpdateUserDto
+public class UpdateUserDto : UserDto
 {
     public string ImagePath { get; set; }
     public string FName { get; set; }
