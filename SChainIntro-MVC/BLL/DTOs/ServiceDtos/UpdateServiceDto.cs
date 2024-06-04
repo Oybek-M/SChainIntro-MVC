@@ -1,6 +1,6 @@
 ﻿namespace SChainIntro_MVC.BLL.DTOs.ServiceDtos;
 
-public class UpdateServiceDto
+public class UpdateServiceDto : ServiceDto
 {
     public IFormFile ImagePath { get; set; }
     public string Title { get; set; }

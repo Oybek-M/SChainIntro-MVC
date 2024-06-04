@@ -1,6 +1,6 @@
 ﻿namespace SChainIntro_MVC.BLL.DTOs.PartnerDtos;
 
-public class UpdatePartnerDto
+public class UpdatePartnerDto : PartnerDto
 {
     public IFormFile Image;
     public string Name { get; set; }

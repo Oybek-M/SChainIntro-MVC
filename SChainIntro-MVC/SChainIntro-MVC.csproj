@@ -25,7 +25,6 @@
     <ItemGroup>
       <Folder Include="wwwroot\VideoFiles\" />
       <Folder Include="wwwroot\PostFiles\" />
-      <Folder Include="wwwroot\StaticFiles\" />
       <Folder Include="wwwroot\UserImages\" />
     </ItemGroup>
 

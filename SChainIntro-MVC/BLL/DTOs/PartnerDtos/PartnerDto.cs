@@ -5,9 +5,9 @@ namespace SChainIntro_MVC.BLL.DTOs.PartnerDtos;
 public class PartnerDto
 {
     public int Id { get; set; }
-    public bool IsActive { get; set; } = true;
+    public bool IsActive { get; set; }
     public DateTime CreatedAt { get; set; }
-    public bool IsEdited {  get; set; }
+    public bool IsEdited { get; set; }
     public DateTime EditedTime { get; set; }
 
 
