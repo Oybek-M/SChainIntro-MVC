@@ -5,17 +5,17 @@ namespace SChainIntro_MVC.Data.Repositories;
 
 public class UnitOfWork(AppDbContext appDbContext) : IUnitOfWork
 {
-    public AppDbContext DbContext = appDbContext;
+    private readonly AppDbContext _dbCcontext = appDbContext;
 
 
-    public IPostRepository Posts => new PostRepository(DbContext);
+    public IPostRepository Posts => new PostRepository(_dbCcontext);
 
-    public IServiceRepository Services => new ServiceRepository(DbContext);
+    public IServiceRepository Services => new ServiceRepository(_dbCcontext);
 
-    public IPartnerRepository Partners => new PartnerRepository(DbContext);
+    public IPartnerRepository Partners => new PartnerRepository(_dbCcontext);
 
-    public IUserRepository Users => new UserRepository(DbContext);
+    public IUserRepository Users => new UserRepository(_dbCcontext);
 
-    public IVideoRepository Videos => new VideoRepository(DbContext);
+    public IVideoRepository Videos => new VideoRepository(_dbCcontext);
 }
 
