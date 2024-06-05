@@ -6,4 +6,5 @@ public class UpdateServiceDto : ServiceDto
     public string Title { get; set; }
     public List<string> Description { get; set; }
     public string BgColor { get; set; }
+    public bool IsActive { get; set; }
 }

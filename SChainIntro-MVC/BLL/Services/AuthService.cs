@@ -1,6 +1,6 @@
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
-using Microsoft.EntityFrameworkCore.Query;
+
 using SChainIntro_MVC.BLL.Common.Exceptions;
 using SChainIntro_MVC.BLL.Common.Security;
 using SChainIntro_MVC.BLL.DTOs.UserDto;
@@ -8,6 +8,7 @@ using SChainIntro_MVC.BLL.Interfaces;
 using SChainIntro_MVC.Data;
 using SChainIntro_MVC.Data.Entities;
 using SChainIntro_MVC.Data.Interfaces;
+
 
 namespace SChainIntro_MVC.BLL.Services;
 

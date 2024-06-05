@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore.Query.Internal;
-using SChainIntro_MVC.Data.Entities;
+﻿using SChainIntro_MVC.Data.Entities;
 
 namespace SChainIntro_MVC.BLL.DTOs.ServiceDtos;
 

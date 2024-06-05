@@ -11,6 +11,7 @@ public class UpdateUserDto : UserDto
     public string Email { get; set; }
     public string Password { get; set; }
     public Gender Gender { get; set; }
+    public bool IsActive { get; set; }
 
 
     // Mapper
