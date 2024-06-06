@@ -13,6 +13,7 @@ public class AppDbContext : DbContext
     public DbSet<Post> Posts;
     public DbSet<Video> Videos;
     public DbSet<User> Users;
+    public DbSet<Static> Static;
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

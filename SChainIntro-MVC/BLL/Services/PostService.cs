@@ -108,7 +108,7 @@ public class PostService(IUnitOfWork unitOfWork,
         }
 
         await _unitOfWork.Posts.UpdateAsync(post);  
-        throw new StatusCodeException(HttpStatusCode.OK, "Post is Successfully updated");
+        throw new StatusCodeException(HttpStatusCode.OK, "Post is Successfully Updated");
     }
 
     public async Task DeleteAsync(int id)

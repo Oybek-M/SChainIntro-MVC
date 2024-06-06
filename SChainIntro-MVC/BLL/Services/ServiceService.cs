@@ -31,7 +31,8 @@ public class ServiceService(IUnitOfWork unitOfWork,
         var service = await _unitOfWork.Services.GetByIdAsync(id);
         if (service is null)
         {
-            throw new StatusCodeException(HttpStatusCode.NotFound, "Service is not found");
+            throw new StatusCodeException(HttpStatusCode.NotFound,
+                "Service is not found");
         }
 
         return (ServiceDto)service;
@@ -41,14 +42,16 @@ public class ServiceService(IUnitOfWork unitOfWork,
     {
         if (addServiceDto is null)
         {
-            throw new StatusCodeException(HttpStatusCode.NoContent, "AddServiceDto is null");
+            throw new StatusCodeException(HttpStatusCode.NoContent,
+                "AddServiceDto is null");
         }
 
         var service = (Service)addServiceDto;
 
-        var imagePath = await _fileService.UploadFileAsync("Services", addServiceDto.ImagePath);
+        var imagePath = await _fileService
+            .UploadFileAsync("Services", addServiceDto.ImagePath);
         // Foydalanuvchi(Admin) ID sini olish
-        var creatorId = _httpContextAccessor.HttpContext.User
+        var creatorId =_httpContextAccessor.HttpContext.User
             .Claims.First(u => u.Type == ClaimTypes.NameIdentifier)
             .Value;
 
@@ -62,20 +65,77 @@ public class ServiceService(IUnitOfWork unitOfWork,
         var validate = await _validator.ValidateAsync(service);
         if (!validate.IsValid)
         {
-            throw new StatusCodeException(HttpStatusCode.NotAcceptable, "Service is NotAcceptable");
+            throw new StatusCodeException(HttpStatusCode.NotAcceptable,
+                "Service is NotAcceptable");
         }
 
         await _unitOfWork.Services.CreateAsync(service);
-        throw new StatusCodeException(HttpStatusCode.OK, "Service is Succesfully Created");
+        throw new StatusCodeException(HttpStatusCode.OK,
+            "Service is Successfully Created");
     }
 
-    public Task UpdateAsync(UpdateServiceDto updateServiceDto)
+    public async Task UpdateAsync(UpdateServiceDto updateServiceDto)
     {
-        throw new NotImplementedException();
+        if (updateServiceDto is null)
+        {
+            throw new StatusCodeException(HttpStatusCode.NoContent,
+                "UpdateServiceDto is null");
+        }
+
+        var servise = await _unitOfWork.Services.GetByIdAsync(updateServiceDto.Id);
+
+        var newImagePath = "";
+        if (updateServiceDto.Image != null)
+        {
+            var res = await _fileService.DeleteFileAsync(servise.ImagePath);
+            if (!res)
+            {
+                throw new StatusCodeException(HttpStatusCode.BadRequest,
+                    "Service`s old image is Dot Deletes");
+            }
+
+            newImagePath = await _fileService.UploadFileAsync("Services",
+                updateServiceDto.Image);
+        } else
+        {
+            newImagePath = servise.ImagePath;
+        }
+
+        servise.ImagePath = newImagePath;
+        servise.IsActive = updateServiceDto.IsActive;
+        servise.IsEdited = true;
+        servise.EditedAt = DateTime.Now;
+
+        var validate = _validator.Validate(servise);
+        if (!validate.IsValid)
+        {
+            throw new StatusCodeException(HttpStatusCode.NotAcceptable,
+                "Service is NotAcceptable");
+        }
+
+        await _unitOfWork.Services.UpdateAsync(servise);
+        throw new StatusCodeException(HttpStatusCode.OK,
+            "Service is Succesfully Updated");
     }
 
-    public Task DeleteAsync(int id)
+    public async Task DeleteAsync(int id)
     {
-        throw new NotImplementedException();
+        var service = await _unitOfWork.Services.GetByIdAsync(id);
+        if (service is null)
+        {
+            throw new StatusCodeException(HttpStatusCode.NotFound,
+                "Service is Not Found");
+        }
+        
+        var res = await _fileService.DeleteFileAsync(service.ImagePath);
+        if (!res)
+        {
+            throw new StatusCodeException(HttpStatusCode.BadRequest,
+                "Service`s image is Not Deleted");
+        }
+
+        await _unitOfWork.Services.DeleteAsync(service);
+        throw new StatusCodeException(HttpStatusCode.OK,
+            "Service is Succesfully Deleted");
     }
 }

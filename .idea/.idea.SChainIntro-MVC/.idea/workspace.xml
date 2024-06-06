@@ -8,9 +8,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="631c4cf8-e970-4ccb-89cc-d2e20fbc18d6" name="Changes" comment="ServiceService.cs is not finished">
+    <list default="true" id="631c4cf8-e970-4ccb-89cc-d2e20fbc18d6" name="Changes" comment="fixed AppDbContext.cs | UnitOfWork.cs">
+      <change afterPath="$PROJECT_DIR$/SChainIntro-MVC/BLL/Interfaces/IStaticsService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SChainIntro-MVC/BLL/Interfaces/IVideoService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SChainIntro-MVC/BLL/Services/StaticsService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SChainIntro-MVC/BLL/Services/VideoService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SChainIntro-MVC/Data/Interfaces/IStaticRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SChainIntro-MVC/Data/Repositories/StaticRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SChainIntro-MVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SChainIntro-MVC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/BLL/DTOs/ServiceDtos/UpdateServiceDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/BLL/DTOs/ServiceDtos/UpdateServiceDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/BLL/Services/PostService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/BLL/Services/PostService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/BLL/Services/ServiceService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/BLL/Services/ServiceService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/Data/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/Data/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/Data/Interfaces/IUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/Data/Interfaces/IUnitOfWork.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/Data/Repositories/UnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/Data/Repositories/UnitOfWork.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +46,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Users/oybekmuxtaraliyevgmail.com/Documents/Programming --_-- Dasturlash/Job/Real/Intro site/SChainIntro-MVC/SChainIntro-MVC/BLL/DTOs/ServiceDtos/AddServiceDto.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SChainIntro-MVC/BLL/Interfaces/IPartnerService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/oybekmuxtaraliyevgmail.com/Documents/Programming --_-- Dasturlash/Job/Real/Intro site/SChainIntro-MVC/SChainIntro-MVC/Data/AppDbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -130,7 +141,7 @@
       <workItem from="1716986936642" duration="31374000" />
       <workItem from="1717391088937" duration="4028000" />
       <workItem from="1717470082388" duration="15432000" />
-      <workItem from="1717558207323" duration="11160000" />
+      <workItem from="1717558207323" duration="24913000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -212,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717570908690</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fixed AppDbContext.cs | UnitOfWork.cs">
+      <option name="closed" value="true" />
+      <created>1717581501859</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717581501859</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +262,8 @@
     <MESSAGE value="additional" />
     <MESSAGE value="error with srevices" />
     <MESSAGE value="ServiceService.cs is not finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="ServiceService.cs is not finished" />
+    <MESSAGE value="fixed AppDbContext.cs | UnitOfWork.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed AppDbContext.cs | UnitOfWork.cs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

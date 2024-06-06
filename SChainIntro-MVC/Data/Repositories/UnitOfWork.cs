@@ -17,5 +17,6 @@ public class UnitOfWork(AppDbContext appDbContext) : IUnitOfWork
     public IUserRepository Users => new UserRepository(_dbCcontext);
 
     public IVideoRepository Videos => new VideoRepository(_dbCcontext);
+    public IStaticRepository Statics => new StaticRepository(_dbCcontext);
 }
 
