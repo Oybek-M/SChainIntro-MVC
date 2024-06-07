@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\oybek\\OneDrive\\Hujjatlar\\All of Projects on Prog\\Job\\SChainIntro-MVC\\",
+  "WorkspaceRootPath": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\onedrive\\hujjatlar\\all of projects on prog\\job\\schainintro-mvc\\schainintro-mvc\\data\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\desktop\\oybek\\projects\\schainintro-mvc\\schainintro-mvc\\data\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\data\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\onedrive\\hujjatlar\\all of projects on prog\\job\\schainintro-mvc\\schainintro-mvc\\bll\\dtos\\postdtos\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\desktop\\oybek\\projects\\schainintro-mvc\\schainintro-mvc\\bll\\dtos\\postdtos\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\bll\\dtos\\postdtos\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,32 +18,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "PostDto.cs",
-              "DocumentMoniker": "C:\\Users\\oybek\\OneDrive\\Hujjatlar\\All of Projects on Prog\\Job\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\DTOs\\PostDtos\\PostDto.cs",
+              "DocumentMoniker": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\DTOs\\PostDtos\\PostDto.cs",
               "RelativeDocumentMoniker": "SChainIntro-MVC\\BLL\\DTOs\\PostDtos\\PostDto.cs",
-              "ToolTip": "C:\\Users\\oybek\\OneDrive\\Hujjatlar\\All of Projects on Prog\\Job\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\DTOs\\PostDtos\\PostDto.cs",
+              "ToolTip": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\DTOs\\PostDtos\\PostDto.cs",
               "RelativeToolTip": "SChainIntro-MVC\\BLL\\DTOs\\PostDtos\\PostDto.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAlwA0AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T16:00:08.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-04T16:00:08.473Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Post.cs",
-              "DocumentMoniker": "C:\\Users\\oybek\\OneDrive\\Hujjatlar\\All of Projects on Prog\\Job\\SChainIntro-MVC\\SChainIntro-MVC\\Data\\Entities\\Post.cs",
+              "DocumentMoniker": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\Data\\Entities\\Post.cs",
               "RelativeDocumentMoniker": "SChainIntro-MVC\\Data\\Entities\\Post.cs",
-              "ToolTip": "C:\\Users\\oybek\\OneDrive\\Hujjatlar\\All of Projects on Prog\\Job\\SChainIntro-MVC\\SChainIntro-MVC\\Data\\Entities\\Post.cs",
+              "ToolTip": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\Data\\Entities\\Post.cs",
               "RelativeToolTip": "SChainIntro-MVC\\Data\\Entities\\Post.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
