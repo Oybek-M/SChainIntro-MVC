@@ -1,3 +1,5 @@
+using System.Net;
+using SChainIntro_MVC.BLL.Common.Exceptions;
 using SChainIntro_MVC.BLL.Interfaces;
 
 
@@ -10,8 +12,17 @@ public class FileService(IWebHostEnvironment webHostEnvironment) : IFileService
     public async Task<string> UploadFileAsync(string folderName, IFormFile file)
     {
         if (file == null || string.IsNullOrEmpty(folderName))
-            throw new ArgumentNullException(nameof(file), "File or folder name cannot be null.");
+            throw new ArgumentNullException(nameof(file), "File or folder name cannot be null");
 
+        if (file is null)
+        {
+            throw new StatusCodeException(HttpStatusCode.NotAcceptable, "File cannot be null");
+        }
+        if (string.IsNullOrEmpty(folderName))
+        {
+            throw new StatusCodeException(HttpStatusCode.NotAcceptable, "Folder name cannot be null");
+        }
+        
         var wwwRootFolder = _webHostEnvironment.WebRootPath;
         var uniqueFileName = Guid.NewGuid().ToString() + "_" + file.FileName;
         var filePath = Path.Combine(wwwRootFolder, folderName, uniqueFileName);

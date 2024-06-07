@@ -12,7 +12,9 @@ using SChainIntro_MVC.Data.Interfaces;
 
 namespace SChainIntro_MVC.BLL.Services;
 
-public class AuthService(IUnitOfWork unitOfWork, IHttpContextAccessor httpContextAccessor) : IAuthService
+public class AuthService(IUnitOfWork unitOfWork,
+                         IHttpContextAccessor httpContextAccessor)
+    : IAuthService
 {
     private readonly IUnitOfWork _unitOfWork = unitOfWork;
     private readonly IHttpContextAccessor _httpContextAccessor = httpContextAccessor;
