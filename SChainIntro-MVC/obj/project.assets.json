@@ -2707,7 +2707,6 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "FluentValidation >= 11.9.1",
-      "Microsoft.EntityFrameworkCore >= 9.0.0-preview.4.24267.1",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.0-preview.4.24267.1",
       "Microsoft.EntityFrameworkCore.Relational >= 9.0.0-preview.4.24267.1",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.0-preview.4.24267.1",
@@ -2715,24 +2714,32 @@
     ]
   },
   "packageFolders": {
-    "/Users/oybekmuxtaraliyevgmail.com/.nuget/packages/": {}
+    "C:\\Users\\Oybek\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/oybekmuxtaraliyevgmail.com/Documents/Programming --_-- Dasturlash/Job/Real/Intro site/SChainIntro-MVC/SChainIntro-MVC/SChainIntro-MVC.csproj",
+      "projectUniqueName": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\SChainIntro-MVC.csproj",
       "projectName": "SChainIntro-MVC",
-      "projectPath": "/Users/oybekmuxtaraliyevgmail.com/Documents/Programming --_-- Dasturlash/Job/Real/Intro site/SChainIntro-MVC/SChainIntro-MVC/SChainIntro-MVC.csproj",
-      "packagesPath": "/Users/oybekmuxtaraliyevgmail.com/.nuget/packages/",
-      "outputPath": "/Users/oybekmuxtaraliyevgmail.com/Documents/Programming --_-- Dasturlash/Job/Real/Intro site/SChainIntro-MVC/SChainIntro-MVC/obj/",
+      "projectPath": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\SChainIntro-MVC.csproj",
+      "packagesPath": "C:\\Users\\Oybek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/oybekmuxtaraliyevgmail.com/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Oybek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2759,10 +2766,6 @@
           "FluentValidation": {
             "target": "Package",
             "version": "[11.9.1, )"
-          },
-          "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[9.0.0-preview.4.24267.1, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -2804,7 +2807,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
