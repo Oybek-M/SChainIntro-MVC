@@ -24,3 +24,4 @@ DeBugging qilish.
 
 Reja bo'yicha tugatish:
 14.06.2024 : Umumiy muddatdan +/- 1 ish kuni (bo'lishi mumkin).
+
