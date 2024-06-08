@@ -29,4 +29,43 @@
       <Folder Include="wwwroot\UserImages\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Views\Auth\Login.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Views\Brends\Add.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Views\Brends\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Views\Brends\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Views\Cars\Add.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Views\Cars\Detail.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Views\Cars\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Views\Cars\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Views\Categories\Add.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Views\Categories\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Views\Categories\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Views\Colors\Add.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Views\Colors\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Views\Colors\Images.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Views\Home\Error404.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Views\Home\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Views\Shared\_Layout.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Views\_ViewImports.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Views\_ViewStart.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\_ViewImports.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\_ViewStart.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Views\Categories\Pagination.razor" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Brends\Add.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Brends\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Brends\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Cars\Add.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Cars\Detail.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Cars\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Cars\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Categories\Add.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Categories\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Categories\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Categories\Pagination.razor" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Colors\Add.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Colors\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Colors\Images.cshtml" />
+    </ItemGroup>
+
 </Project>

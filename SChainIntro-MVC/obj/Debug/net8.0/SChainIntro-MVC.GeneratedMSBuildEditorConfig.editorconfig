@@ -26,6 +26,30 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/oybekmuxtaraliyevgmail.com/Documents/Programming --_-- Dasturlash/Job/Real/Intro site/SChainIntro-MVC/SChainIntro-MVC
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/oybekmuxtaraliyevgmail.com/Documents/Programming --_-- Dasturlash/Job/Real/Intro site/SChainIntro-MVC/SChainIntro-MVC/Areas/Admin/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQXV0aC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/oybekmuxtaraliyevgmail.com/Documents/Programming --_-- Dasturlash/Job/Real/Intro site/SChainIntro-MVC/SChainIntro-MVC/Areas/Admin/Views/Home/Error404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvSG9tZS9FcnJvcjQwNC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/oybekmuxtaraliyevgmail.com/Documents/Programming --_-- Dasturlash/Job/Real/Intro site/SChainIntro-MVC/SChainIntro-MVC/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/oybekmuxtaraliyevgmail.com/Documents/Programming --_-- Dasturlash/Job/Real/Intro site/SChainIntro-MVC/SChainIntro-MVC/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/oybekmuxtaraliyevgmail.com/Documents/Programming --_-- Dasturlash/Job/Real/Intro site/SChainIntro-MVC/SChainIntro-MVC/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/oybekmuxtaraliyevgmail.com/Documents/Programming --_-- Dasturlash/Job/Real/Intro site/SChainIntro-MVC/SChainIntro-MVC/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/oybekmuxtaraliyevgmail.com/Documents/Programming --_-- Dasturlash/Job/Real/Intro site/SChainIntro-MVC/SChainIntro-MVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
