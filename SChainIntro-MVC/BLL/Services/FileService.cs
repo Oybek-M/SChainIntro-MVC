@@ -1,5 +1,3 @@
-using System.Net;
-using SChainIntro_MVC.BLL.Common.Exceptions;
 using SChainIntro_MVC.BLL.Interfaces;
 
 
@@ -9,20 +7,11 @@ public class FileService(IWebHostEnvironment webHostEnvironment) : IFileService
 {
     private readonly IWebHostEnvironment _webHostEnvironment = webHostEnvironment;
 
-    public async Task<string> UploadFileAsync(string folderName, IFormFile file)
+    public async Task<string> UploadFile(string folderName, IFormFile file)
     {
         if (file == null || string.IsNullOrEmpty(folderName))
-            throw new ArgumentNullException(nameof(file), "File or folder name cannot be null");
+            throw new ArgumentNullException(nameof(file), "File or folder name cannot be null.");
 
-        if (file is null)
-        {
-            throw new StatusCodeException(HttpStatusCode.NotAcceptable, "File cannot be null");
-        }
-        if (string.IsNullOrEmpty(folderName))
-        {
-            throw new StatusCodeException(HttpStatusCode.NotAcceptable, "Folder name cannot be null");
-        }
-        
         var wwwRootFolder = _webHostEnvironment.WebRootPath;
         var uniqueFileName = Guid.NewGuid().ToString() + "_" + file.FileName;
         var filePath = Path.Combine(wwwRootFolder, folderName, uniqueFileName);
@@ -37,7 +26,7 @@ public class FileService(IWebHostEnvironment webHostEnvironment) : IFileService
         return $"~/{folderName}/{uniqueFileName}";
     }
 
-    public async Task<bool> DeleteFileAsync(string filePath)
+    public async Task<bool> DeleteFile(string filePath)
     {
         if (string.IsNullOrEmpty(filePath))
             throw new ArgumentNullException(nameof(filePath), "File path cannot be null.");

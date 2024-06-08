@@ -23,5 +23,4 @@ public class Static : Base
     public string OwnerPassword { get; set; } = "045737cb215b00e7d78787c0cc29d92c50d5d4918e8c1b0184e5cf6b7ff3d340";
     public string DevNickName { get; set; } = "M.O";
     public string DevUrl { get; set; } = "https://www.linkedin.com/in/oybek-muxtaraliyev";
-    public bool AppearWaterMark { get; set; } = true;
 }

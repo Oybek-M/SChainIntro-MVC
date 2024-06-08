@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "D4jWffJweJ8jKeGiNrK77rvpkzlslslrKcSz35Dn83A=",
+  "Hash": "Qd+puUA9zs/BkWZae0bZaZsOxu9fArqx3sixyAQAqmA=",
   "Source": "SChainIntro-MVC",
   "BasePath": "_content/SChainIntro-MVC",
   "Mode": "Default",
@@ -1214,12 +1214,12 @@
       "OriginalItemSpec": "wwwroot/StaticFiles/admin.png"
     },
     {
-      "Identity": "/Users/oybekmuxtaraliyevgmail.com/Documents/Programming --_-- Dasturlash/Job/Real/Intro site/SChainIntro-MVC/SChainIntro-MVC/wwwroot/StaticFiles/user.png",
+      "Identity": "/Users/oybekmuxtaraliyevgmail.com/Documents/Programming --_-- Dasturlash/Job/Real/Intro site/SChainIntro-MVC/SChainIntro-MVC/wwwroot/UserImages/user.png",
       "SourceId": "SChainIntro-MVC",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/oybekmuxtaraliyevgmail.com/Documents/Programming --_-- Dasturlash/Job/Real/Intro site/SChainIntro-MVC/SChainIntro-MVC/wwwroot/",
       "BasePath": "_content/SChainIntro-MVC",
-      "RelativePath": "StaticFiles/user.png",
+      "RelativePath": "UserImages/user.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1230,7 +1230,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/StaticFiles/user.png"
+      "OriginalItemSpec": "wwwroot/UserImages/user.png"
     }
   ]
 }
