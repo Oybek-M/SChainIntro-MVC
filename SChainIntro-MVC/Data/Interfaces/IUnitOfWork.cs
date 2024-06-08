@@ -7,5 +7,4 @@ public interface IUnitOfWork
     IPartnerRepository Partners { get; }
     IUserRepository Users { get; }
     IVideoRepository Videos { get; }
-    IStaticRepository Statics { get; }
 }

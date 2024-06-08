@@ -23,7 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Areas\Admin\" />
+      <Folder Include="Area\" />
       <Folder Include="wwwroot\VideoFiles\" />
       <Folder Include="wwwroot\PostFiles\" />
       <Folder Include="wwwroot\UserImages\" />
