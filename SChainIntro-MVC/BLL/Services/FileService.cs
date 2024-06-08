@@ -47,9 +47,13 @@ public class FileService(IWebHostEnvironment webHostEnvironment) : IFileService
         if (File.Exists(fullPath))
         {
             File.Delete(fullPath);
-            return await Task.FromResult(true);
+            throw new StatusCodeException(HttpStatusCode.OK,
+                "File is Successfully Deleted");
         }
-
-        return await Task.FromResult(false);
+        else
+        {
+            throw new StatusCodeException(HttpStatusCode.BadRequest,
+                "File is Not Found or Not Deleted");
+        }
     }
 }
