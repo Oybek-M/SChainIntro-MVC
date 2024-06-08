@@ -8,6 +8,13 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Compile Remove="Area\**" />
+      <Content Remove="Area\**" />
+      <EmbeddedResource Remove="Area\**" />
+      <None Remove="Area\**" />
+    </ItemGroup>
+
+    <ItemGroup>
       <PackageReference Include="FluentValidation" Version="11.9.1" />
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0-preview.4.24267.1" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0-preview.4.24267.1">
@@ -23,7 +30,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Area\" />
       <Folder Include="wwwroot\VideoFiles\" />
       <Folder Include="wwwroot\PostFiles\" />
       <Folder Include="wwwroot\UserImages\" />
