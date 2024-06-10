@@ -70,7 +70,7 @@ namespace SChainIntro_MVC.BLL.Services
             }
 
 
-            var imagePath = await _fileService.UploadFile("Partners", addPartnerDto.Image);
+            var imagePath = await _fileService.UploadFileAsync("Partners", addPartnerDto.Image);
             // Foydalanuvchi ID sini 
             var creatorId = _httpContextAccessor.HttpContext.User.Claims.First(u => u.Type == ClaimTypes.NameIdentifier).Value;
             Partner newPartner = new Partner()
@@ -98,7 +98,7 @@ namespace SChainIntro_MVC.BLL.Services
             var partner = await _unitOfWork.Partners.GetByIdAsync(updatePartnerDto.Id);
             
             var newImagePath = updatePartnerDto.Image != null && updatePartnerDto.Image.Length > 0 
-                ? await _fileService.UploadFile("Partners", updatePartnerDto.Image) 
+                ? await _fileService.UploadFileAsync("Partners", updatePartnerDto.Image) 
                 : partner.ImagePath;
 
             partner.ImagePath = newImagePath;
@@ -119,7 +119,7 @@ namespace SChainIntro_MVC.BLL.Services
                     "Partner is not found");
             }
 
-            await _fileService.DeleteFile(partner.ImagePath);
+            await _fileService.DeleteFileAsync(partner.ImagePath);
             await _unitOfWork.Partners.DeleteAsync(partner);
         }
     }

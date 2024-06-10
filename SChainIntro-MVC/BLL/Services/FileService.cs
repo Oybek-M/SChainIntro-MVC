@@ -9,7 +9,7 @@ public class FileService(IWebHostEnvironment webHostEnvironment) : IFileService
 {
     private readonly IWebHostEnvironment _webHostEnvironment = webHostEnvironment;
 
-    public async Task<string> UploadFile(string folderName, IFormFile file)
+    public async Task<string> UploadFileAsync(string folderName, IFormFile file)
     {
         if (file == null || string.IsNullOrEmpty(folderName))
             throw new ArgumentNullException(nameof(file), "File or folder name cannot be null.");
@@ -28,7 +28,7 @@ public class FileService(IWebHostEnvironment webHostEnvironment) : IFileService
         return $"~/{folderName}/{uniqueFileName}";
     }
 
-    public async Task<bool> DeleteFile(string filePath)
+    public async Task<bool> DeleteFileAsync(string filePath)
     {
         if (string.IsNullOrEmpty(filePath))
             throw new ArgumentNullException(nameof(filePath), "File path cannot be null.");
