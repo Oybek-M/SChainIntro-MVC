@@ -14,6 +14,7 @@ public class AppDbContext : DbContext
     public DbSet<Post> Posts { get; set; }
     public DbSet<Video> Videos { get; set; }
     public DbSet<User> Users { get; set; }
+    public DbSet<Static> Static { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
