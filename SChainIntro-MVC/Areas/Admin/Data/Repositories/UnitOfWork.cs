@@ -1,3 +1,4 @@
+using SChainIntro_MVC.Areas.Admin.Data.Repositories;
 using SChainIntro_MVC.Data.Interfaces;
 
 
@@ -17,5 +18,6 @@ public class UnitOfWork(AppDbContext appDbContext) : IUnitOfWork
     public IUserRepository Users => new UserRepository(DbContext);
 
     public IVideoRepository Videos => new VideoRepository(DbContext);
+    public IStaticRepository Static => new StaticRepository(DbContext);
 }
 

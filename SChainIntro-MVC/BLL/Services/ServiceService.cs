@@ -49,7 +49,7 @@ public class ServiceService(IUnitOfWork unitOfWork,
         var service = (Service)addServiceDto;
 
         var imagePath = await _fileService
-            .UploadFileAsync("Services", addServiceDto.ImagePath);
+            .UploadFileAsync("Services", addServiceDto.Image);
         // Foydalanuvchi(Admin) ID sini olish
         var creatorId = _httpContextAccessor.HttpContext.User
             .Claims.First(u => u.Type == ClaimTypes.NameIdentifier)
