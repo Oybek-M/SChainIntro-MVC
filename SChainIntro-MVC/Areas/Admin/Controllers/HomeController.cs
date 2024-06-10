@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CarsShopMVC.Areas.Admin.Controllers;
 
-[Area("admin")]
+[Area("Admin")]
 [Authorize(AuthenticationSchemes = "Admin")]
 public class HomeController : Controller
 {   

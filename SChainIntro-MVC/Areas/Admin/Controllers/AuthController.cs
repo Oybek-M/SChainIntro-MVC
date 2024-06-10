@@ -6,7 +6,6 @@ using SChainIntro_MVC.Data;
 namespace SChainIntro_MVC.Areas.Admin.Controllers;
 
 [Area("admin")]
-
 public class AuthController(IAuthService authService)
     : Controller
 {
