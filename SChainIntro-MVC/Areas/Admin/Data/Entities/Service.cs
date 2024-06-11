@@ -1,5 +1,6 @@
 namespace SChainIntro_MVC.Data.Entities;
 
+
 public class Service : Base
 {
     public string CreatorId { get; set; } // Service creator(admin)`s ID

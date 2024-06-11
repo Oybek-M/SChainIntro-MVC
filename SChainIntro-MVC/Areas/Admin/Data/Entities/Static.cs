@@ -1,5 +1,6 @@
 namespace SChainIntro_MVC.Data.Entities;
 
+
 public class Static : Base
 {
     // Background Video/Images

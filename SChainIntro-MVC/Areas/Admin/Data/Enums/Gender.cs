@@ -1,5 +1,6 @@
 ﻿namespace SChainIntro_MVC.Data.Enums;
 
+
 public enum Gender
 {
     Male = 0,

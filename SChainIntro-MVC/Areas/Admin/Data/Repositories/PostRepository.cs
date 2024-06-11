@@ -1,10 +1,10 @@
 using Microsoft.EntityFrameworkCore;
-using System.Linq;
-
 using SChainIntro_MVC.Data.Entities;
 using SChainIntro_MVC.Data.Interfaces;
 
+
 namespace SChainIntro_MVC.Data.Repositories;
+
 
 public class PostRepository(AppDbContext dbContext)
     : Repository<Post>(dbContext), IPostRepository

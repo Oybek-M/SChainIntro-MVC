@@ -1,7 +1,9 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
+
 namespace CarsShopMVC.Areas.Admin.Controllers;
+
 
 [Area("Admin")]
 [Authorize(AuthenticationSchemes = "Admin")]

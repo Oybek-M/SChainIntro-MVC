@@ -1,6 +1,8 @@
 ﻿using System.Net;
 
+
 namespace SChainIntro_MVC.BLL.Common.Exceptions;
+
 
 public class ValidatorException : StatusCodeException
 {

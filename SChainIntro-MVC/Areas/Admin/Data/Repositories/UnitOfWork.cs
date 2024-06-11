@@ -4,6 +4,7 @@ using SChainIntro_MVC.Data.Interfaces;
 
 namespace SChainIntro_MVC.Data.Repositories;
 
+
 public class UnitOfWork(AppDbContext appDbContext) : IUnitOfWork
 {
     public AppDbContext DbContext = appDbContext;

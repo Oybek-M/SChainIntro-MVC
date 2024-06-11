@@ -3,7 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 using SChainIntro_MVC.BLL.Interfaces;
 using SChainIntro_MVC.Data;
 
+
 namespace SChainIntro_MVC.Areas.Admin.Controllers;
+
 
 [Area("admin")]
 public class AuthController(IAuthService authService)

@@ -1,5 +1,6 @@
 ﻿namespace SChainIntro_MVC.BLL.Common.PageModel;
 
+
 public class PageModel<T>
 {
     public int PageNumber { get; set; } // 1 - page

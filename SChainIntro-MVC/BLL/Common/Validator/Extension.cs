@@ -1,7 +1,9 @@
 ﻿using FluentValidation.Results;
 using System.Text;
 
+
 namespace SChainIntro_MVC.BLL.Common.Validator;
+
 
 public static class Extension
 {

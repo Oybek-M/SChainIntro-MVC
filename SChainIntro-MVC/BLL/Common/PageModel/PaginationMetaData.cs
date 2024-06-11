@@ -1,5 +1,6 @@
 namespace SChainIntro_MVC.BLL.Common.PageModel;
 
+
 public class PaginationMetaData
 {
     public int CurrentPage { get; set; }

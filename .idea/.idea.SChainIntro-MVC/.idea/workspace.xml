@@ -9,11 +9,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="631c4cf8-e970-4ccb-89cc-d2e20fbc18d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SChainIntro-MVC/BLL/Common/PageModel/PaginationMetaData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SChainIntro-MVC/BLL/Common/PageModel/PaginationParams.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SChainIntro-MVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SChainIntro-MVC/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/SChainIntro-MVC.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/SChainIntro-MVC.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/SChainIntro-MVC.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/SChainIntro-MVC.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/SChainIntro-MVC.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/SChainIntro-MVC.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +140,7 @@
       <workItem from="1716986936642" duration="31374000" />
       <workItem from="1717391088937" duration="4028000" />
       <workItem from="1717470082388" duration="834000" />
+      <workItem from="1718078717458" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -205,6 +213,7 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>

@@ -1,5 +1,6 @@
 ﻿namespace SChainIntro_MVC.BLL.DTOs.StaticDtos;
 
+
 public class UpdateStaticDto
 {
     // Files

@@ -1,9 +1,10 @@
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SChainIntro_MVC.Data.Entities;
 using SChainIntro_MVC.Data.Interfaces;
 
+
 namespace SChainIntro_MVC.Data.Repositories;
+
 
 public class PartnerRepository(AppDbContext dbContext)
     : Repository<Partner>(dbContext), IPartnerRepository

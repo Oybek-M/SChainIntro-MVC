@@ -1,5 +1,6 @@
 namespace SChainIntro_MVC.Data;
 
+
 public enum Role
 {
     Owner = 0,

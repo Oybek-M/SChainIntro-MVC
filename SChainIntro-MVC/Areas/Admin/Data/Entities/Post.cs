@@ -1,5 +1,6 @@
 namespace SChainIntro_MVC.Data.Entities;
 
+
 public class Post : Base
 {
     public string CreatorID { get; set; } // Post`s creator

@@ -1,6 +1,8 @@
 ﻿using SChainIntro_MVC.Data.Entities;
 
+
 namespace SChainIntro_MVC.BLL.DTOs.PartnerDtos;
+
 
 public class PartnerDto
 {

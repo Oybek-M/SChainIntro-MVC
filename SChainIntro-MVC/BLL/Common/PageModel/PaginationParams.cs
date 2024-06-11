@@ -1,7 +1,9 @@
 using System.Net;
 using SChainIntro_MVC.BLL.Common.Exceptions;
 
+
 namespace SChainIntro_MVC.BLL.Common.PageModel;
+
 
 public class PaginationParams
 {

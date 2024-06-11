@@ -2,7 +2,9 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using SChainIntro_MVC.Models;
 
+
 namespace SChainIntro_MVC.Controllers;
+
 
 public class HomeController : Controller
 {

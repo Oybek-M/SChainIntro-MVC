@@ -1,6 +1,5 @@
-using SChainIntro_MVC.BLL.Interfaces;
-
 namespace SChainIntro_MVC.Data.Interfaces;
+
 
 public interface IUnitOfWork
 {

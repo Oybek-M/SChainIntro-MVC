@@ -1,5 +1,6 @@
 ﻿namespace SChainIntro_MVC.BLL.DTOs.VideoDtos;
 
+
 public class UpdateVideoDto : VideoDto
 {
     public string Title { get; set; }

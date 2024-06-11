@@ -1,6 +1,8 @@
 using SChainIntro_MVC.Data.Enums;
 
+
 namespace SChainIntro_MVC.Data.Entities;
+
 
 public class User : Base
 {

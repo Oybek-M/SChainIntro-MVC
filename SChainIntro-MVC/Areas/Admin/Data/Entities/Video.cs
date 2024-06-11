@@ -1,5 +1,6 @@
 namespace SChainIntro_MVC.Data.Entities;
 
+
 public class Video : Base
 {
     public string CreatorID { get; set; }

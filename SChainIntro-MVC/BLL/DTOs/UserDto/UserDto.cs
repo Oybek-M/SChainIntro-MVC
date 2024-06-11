@@ -2,7 +2,9 @@
 using SChainIntro_MVC.Data.Entities;
 using SChainIntro_MVC.Data.Enums;
 
+
 namespace SChainIntro_MVC.BLL.DTOs.UserDto;
+
 
 public class UserDto
 {

@@ -1,5 +1,6 @@
 ﻿namespace SChainIntro_MVC.BLL.DTOs.UserDto;
 
+
 public class LoginDto
 {
     public string Email { get; set; }

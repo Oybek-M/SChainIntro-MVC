@@ -1,8 +1,9 @@
 ﻿using FluentValidation;
-using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SChainIntro_MVC.Data.Entities;
 
+
 namespace SChainIntro_MVC.BLL.Common.Validator;
+
 
 public class ServiceValidator : AbstractValidator<Service>
 {

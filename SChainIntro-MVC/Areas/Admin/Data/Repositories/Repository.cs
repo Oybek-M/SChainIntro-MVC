@@ -2,7 +2,9 @@ using Microsoft.EntityFrameworkCore;
 using SChainIntro_MVC.Data.Entities;
 using SChainIntro_MVC.Data.Interfaces;
 
+
 namespace SChainIntro_MVC.Data.Repositories;
+
 
 public class Repository<TEntity>(AppDbContext dbContext)
     : IRepository<TEntity> where TEntity : Base

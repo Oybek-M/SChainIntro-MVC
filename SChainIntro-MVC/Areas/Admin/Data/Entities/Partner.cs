@@ -1,5 +1,6 @@
 namespace SChainIntro_MVC.Data.Entities;
 
+
 public class Partner : Base
 {
     public string CreatorId { get; set; } // Partner creator(admin)`s ID

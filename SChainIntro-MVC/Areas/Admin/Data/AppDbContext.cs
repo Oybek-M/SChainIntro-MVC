@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
-
 using SChainIntro_MVC.Data.Entities;
 
 
 namespace SChainIntro_MVC.Data;
+
 
 public class AppDbContext : DbContext
 {

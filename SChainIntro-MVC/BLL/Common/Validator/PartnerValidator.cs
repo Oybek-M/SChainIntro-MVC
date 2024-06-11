@@ -1,7 +1,9 @@
 ﻿using FluentValidation;
 using SChainIntro_MVC.Data.Entities;
 
+
 namespace SChainIntro_MVC.BLL.Common.Validator.Validator;
+
 
 public class PartnerValidator : AbstractValidator<Partner>
 {

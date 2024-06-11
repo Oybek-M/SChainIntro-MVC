@@ -1,7 +1,8 @@
-﻿using SChainIntro_MVC.BLL.DTOs.PostDtos;
-using SChainIntro_MVC.Data.Entities;
+﻿using SChainIntro_MVC.Data.Entities;
+
 
 namespace SChainIntro_MVC.BLL.DTOs.ServiceDtos;
+
 
 public class ServiceDto
 {
