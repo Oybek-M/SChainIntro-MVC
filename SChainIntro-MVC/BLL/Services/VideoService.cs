@@ -1,8 +1,6 @@
 ﻿using System.Net;
 using System.Security.Claims;
-using System.Security.Cryptography;
 using FluentValidation;
-using Microsoft.EntityFrameworkCore.Update.Internal;
 using SChainIntro_MVC.BLL.Common.Exceptions;
 using SChainIntro_MVC.BLL.DTOs.ServiceDtos;
 using SChainIntro_MVC.BLL.DTOs.VideoDtos;
@@ -10,7 +8,9 @@ using SChainIntro_MVC.BLL.Interfaces;
 using SChainIntro_MVC.Data.Entities;
 using SChainIntro_MVC.Data.Interfaces;
 
+
 namespace SChainIntro_MVC.BLL.Services;
+
 
 public class VideoService(IUnitOfWork unitOfWork,
                           IFileService fileService,
@@ -34,7 +34,8 @@ public class VideoService(IUnitOfWork unitOfWork,
         var video = await _unitOfWork.Videos.GetByIdAsync(id);
         if (video is null)
         {
-            throw new StatusCodeException(HttpStatusCode.NotFound, "Video is Not Found");
+            throw new StatusCodeException(HttpStatusCode.NotFound,
+                "Video is Not Found");
         }
 
         return (VideoDto)video;

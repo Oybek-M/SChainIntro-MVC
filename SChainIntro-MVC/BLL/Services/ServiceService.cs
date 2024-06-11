@@ -7,7 +7,9 @@ using SChainIntro_MVC.BLL.Interfaces;
 using SChainIntro_MVC.Data.Entities;
 using SChainIntro_MVC.Data.Interfaces;
 
+
 namespace SChainIntro_MVC.BLL.Services;
+
 
 public class ServiceService(IUnitOfWork unitOfWork,
                             IFileService fileService,
@@ -50,6 +52,7 @@ public class ServiceService(IUnitOfWork unitOfWork,
 
         var imagePath = await _fileService
             .UploadFileAsync("Services", addServiceDto.Image);
+
         // Foydalanuvchi(Admin) ID sini olish
         var creatorId = _httpContextAccessor.HttpContext.User
             .Claims.First(u => u.Type == ClaimTypes.NameIdentifier)
@@ -82,12 +85,12 @@ public class ServiceService(IUnitOfWork unitOfWork,
                 "UpdateServiceDto is null");
         }
 
-        var servise = await _unitOfWork.Services.GetByIdAsync(updateServiceDto.Id);
+        var service = await _unitOfWork.Services.GetByIdAsync(updateServiceDto.Id);
 
         var newImagePath = "";
         if (updateServiceDto.Image != null)
         {
-            var res = await _fileService.DeleteFileAsync(servise.ImagePath);
+            var res = await _fileService.DeleteFileAsync(service.ImagePath);
             if (!res)
             {
                 throw new StatusCodeException(HttpStatusCode.BadRequest,
@@ -99,22 +102,22 @@ public class ServiceService(IUnitOfWork unitOfWork,
         }
         else
         {
-            newImagePath = servise.ImagePath;
+            newImagePath = service.ImagePath;
         }
 
-        servise.ImagePath = newImagePath;
-        servise.IsActive = updateServiceDto.IsActive;
-        servise.IsEdited = true;
-        servise.EditedAt = DateTime.Now;
+        service.ImagePath = newImagePath;
+        service.IsActive = updateServiceDto.IsActive;
+        service.IsEdited = true;
+        service.EditedAt = DateTime.Now;
 
-        var validate = _validator.Validate(servise);
+        var validate = _validator.Validate(service);
         if (!validate.IsValid)
         {
             throw new StatusCodeException(HttpStatusCode.NotAcceptable,
                 "Service is NotAcceptable");
         }
 
-        await _unitOfWork.Services.UpdateAsync(servise);
+        await _unitOfWork.Services.UpdateAsync(service);
         throw new StatusCodeException(HttpStatusCode.OK,
             "Service is Succesfully Updated");
     }

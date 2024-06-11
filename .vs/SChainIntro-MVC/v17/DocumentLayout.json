@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\desktop\\oybek\\projects\\schainintro-mvc\\schainintro-mvc\\bll\\services\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\bll\\services\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\desktop\\oybek\\projects\\schainintro-mvc\\schainintro-mvc\\bll\\dtos\\servicedtos\\updateservicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\bll\\dtos\\servicedtos\\updateservicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\desktop\\oybek\\projects\\schainintro-mvc\\schainintro-mvc\\areas\\admin\\data\\entities\\static.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\areas\\admin\\data\\entities\\static.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\desktop\\oybek\\projects\\schainintro-mvc\\schainintro-mvc\\bll\\services\\staticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\bll\\services\\staticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\desktop\\oybek\\projects\\schainintro-mvc\\schainintro-mvc\\bll\\dtos\\servicedtos\\addservicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\bll\\dtos\\servicedtos\\addservicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\desktop\\oybek\\projects\\schainintro-mvc\\schainintro-mvc\\bll\\dtos\\servicedtos\\servicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\bll\\dtos\\servicedtos\\servicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\desktop\\oybek\\projects\\schainintro-mvc\\schainintro-mvc\\areas\\admin\\data\\repositories\\staticrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\areas\\admin\\data\\repositories\\staticrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,80 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Static.cs",
-              "DocumentMoniker": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\Areas\\Admin\\Data\\Entities\\Static.cs",
-              "RelativeDocumentMoniker": "SChainIntro-MVC\\Areas\\Admin\\Data\\Entities\\Static.cs",
-              "ToolTip": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\Areas\\Admin\\Data\\Entities\\Static.cs",
-              "RelativeToolTip": "SChainIntro-MVC\\Areas\\Admin\\Data\\Entities\\Static.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:18:17.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StaticsService.cs",
-              "DocumentMoniker": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\Services\\StaticsService.cs",
-              "RelativeDocumentMoniker": "SChainIntro-MVC\\BLL\\Services\\StaticsService.cs",
-              "ToolTip": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\Services\\StaticsService.cs",
-              "RelativeToolTip": "SChainIntro-MVC\\BLL\\Services\\StaticsService.cs",
-              "ViewState": "AQIAAG8AAAAAAAAAAAAewIYAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:18:07.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddServiceDto.cs",
-              "DocumentMoniker": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\DTOs\\ServiceDtos\\AddServiceDto.cs",
-              "RelativeDocumentMoniker": "SChainIntro-MVC\\BLL\\DTOs\\ServiceDtos\\AddServiceDto.cs",
-              "ToolTip": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\DTOs\\ServiceDtos\\AddServiceDto.cs",
-              "RelativeToolTip": "SChainIntro-MVC\\BLL\\DTOs\\ServiceDtos\\AddServiceDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:17:28.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServiceDto.cs",
-              "DocumentMoniker": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\DTOs\\ServiceDtos\\ServiceDto.cs",
-              "RelativeDocumentMoniker": "SChainIntro-MVC\\BLL\\DTOs\\ServiceDtos\\ServiceDto.cs",
-              "ToolTip": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\DTOs\\ServiceDtos\\ServiceDto.cs",
-              "RelativeToolTip": "SChainIntro-MVC\\BLL\\DTOs\\ServiceDtos\\ServiceDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:17:24.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UpdateServiceDto.cs",
-              "DocumentMoniker": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\DTOs\\ServiceDtos\\UpdateServiceDto.cs",
-              "RelativeDocumentMoniker": "SChainIntro-MVC\\BLL\\DTOs\\ServiceDtos\\UpdateServiceDto.cs",
-              "ToolTip": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\DTOs\\ServiceDtos\\UpdateServiceDto.cs",
-              "RelativeToolTip": "SChainIntro-MVC\\BLL\\DTOs\\ServiceDtos\\UpdateServiceDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:17:18.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ServiceService.cs",
-              "DocumentMoniker": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\Services\\ServiceService.cs",
-              "RelativeDocumentMoniker": "SChainIntro-MVC\\BLL\\Services\\ServiceService.cs",
-              "ToolTip": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\Services\\ServiceService.cs",
-              "RelativeToolTip": "SChainIntro-MVC\\BLL\\Services\\ServiceService.cs",
-              "ViewState": "AQIAAG0AAAAAAAAAAAAIwFcAAAArAAAA",
+              "Title": "StaticRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\Areas\\Admin\\Data\\Repositories\\StaticRepository.cs",
+              "RelativeDocumentMoniker": "SChainIntro-MVC\\Areas\\Admin\\Data\\Repositories\\StaticRepository.cs",
+              "ToolTip": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\Areas\\Admin\\Data\\Repositories\\StaticRepository.cs*",
+              "RelativeToolTip": "SChainIntro-MVC\\Areas\\Admin\\Data\\Repositories\\StaticRepository.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:17:11.815Z",
+              "WhenOpened": "2024-06-11T03:27:59.893Z",
               "EditorCaption": ""
             }
           ]

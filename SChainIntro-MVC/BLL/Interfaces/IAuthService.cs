@@ -1,9 +1,10 @@
-using Microsoft.AspNetCore.Authentication;
 using SChainIntro_MVC.BLL.Common.Exceptions;
 using SChainIntro_MVC.BLL.DTOs.UserDto;
 using SChainIntro_MVC.Data;
 
+
 namespace SChainIntro_MVC.BLL.Interfaces;
+
 
 public interface IAuthService
 {

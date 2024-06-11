@@ -7,7 +7,7 @@ using SChainIntro_MVC.Data.Repositories;
 namespace SChainIntro_MVC.Areas.Admin.Data.Repositories;
 
 public class StaticRepository(AppDbContext dbContext)
-    : Repository<Service>(dbContext), IStaticRepository
+    : Repository<Static>(dbContext), IStaticRepository
 {
     public async Task<Static> GetAsync()
     {

@@ -2,7 +2,7 @@
 
 namespace SChainIntro_MVC.Data.Interfaces;
 
-public interface IStaticRepository : IRepository<Service>
+public interface IStaticRepository : IRepository<Static>
 {
     Task<Static> GetAsync();
 }

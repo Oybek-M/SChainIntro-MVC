@@ -1,15 +1,15 @@
 ﻿using System.Net;
-using System.Runtime.InteropServices.JavaScript;
 using System.Security.Claims;
 using FluentValidation;
 using SChainIntro_MVC.BLL.Common.Exceptions;
-using SChainIntro_MVC.BLL.DTOs.PartnerDtos;
 using SChainIntro_MVC.BLL.DTOs.PostDtos;
 using SChainIntro_MVC.BLL.Interfaces;
 using SChainIntro_MVC.Data.Entities;
 using SChainIntro_MVC.Data.Interfaces;
 
+
 namespace SChainIntro_MVC.BLL.Services;
+
 
 public class PostService(IUnitOfWork unitOfWork,
                          IFileService fileService,
@@ -34,7 +34,8 @@ public class PostService(IUnitOfWork unitOfWork,
         var post = await _unitOfWork.Posts.GetByIdAsync(id);
         if (post is null)
         {
-            throw new StatusCodeException(HttpStatusCode.NotFound, "Post is not found");
+            throw new StatusCodeException(HttpStatusCode.NotFound,
+                "Post is not found");
         }
 
         return (PostDto)post;
@@ -44,12 +45,15 @@ public class PostService(IUnitOfWork unitOfWork,
     {
         if (addPostDto is null)
         {
-            throw new StatusCodeException(HttpStatusCode.NoContent, "AddPostDto is null");
+            throw new StatusCodeException(HttpStatusCode.NoContent,
+                "AddPostDto is null");
         }
 
         var post = (Post)addPostDto;
 
-        var filePath = await _fileService.UploadFileAsync("Posts", addPostDto.File);
+        var filePath = await _fileService
+            .UploadFileAsync("Posts", addPostDto.File);
+        
         // Foydalanuvchi(Admin) ID sini olish
         var creatorId = _httpContextAccessor.HttpContext.User
             .Claims.First(u => u.Type == ClaimTypes.NameIdentifier)
@@ -65,18 +69,21 @@ public class PostService(IUnitOfWork unitOfWork,
         var validate = await _validator.ValidateAsync(post);
         if (!validate.IsValid)
         {
-            throw new StatusCodeException(HttpStatusCode.NotAcceptable, "Post is NotAcceptable");
+            throw new StatusCodeException(HttpStatusCode.NotAcceptable,
+                "Post is NotAcceptable");
         }
 
         await _unitOfWork.Posts.CreateAsync(post);
-        throw new StatusCodeException(HttpStatusCode.OK, "Post is Succesfully Created");
+        throw new StatusCodeException(HttpStatusCode.OK,
+            "Post is Succesfully Created");
     }
 
     public async Task UpdateAsync(UpdatePostDto updatePostDto)
     {
         if (updatePostDto is null)
         {
-            throw new StatusCodeException(HttpStatusCode.NoContent, "UpdatePostDto is null");
+            throw new StatusCodeException(HttpStatusCode.NoContent,
+                "UpdatePostDto is null");
         }
 
         var post = await _unitOfWork.Posts.GetByIdAsync(updatePostDto.Id);
@@ -87,9 +94,11 @@ public class PostService(IUnitOfWork unitOfWork,
             var res = await _fileService.DeleteFileAsync(post.FilePath);
             if (!res)
             {
-                throw new StatusCodeException(HttpStatusCode.BadRequest, "Post`s old file is Not Deleted");
+                throw new StatusCodeException(HttpStatusCode.BadRequest,
+                    "Post`s old file is Not Deleted");
             }
-            newFilePath = await _fileService.UploadFileAsync("Posts", updatePostDto.File);
+            newFilePath = await _fileService
+                .UploadFileAsync("Posts", updatePostDto.File);
         }
         else
         {
@@ -104,11 +113,13 @@ public class PostService(IUnitOfWork unitOfWork,
         var validate = await _validator.ValidateAsync(post);
         if (!validate.IsValid)
         {
-            throw new StatusCodeException(HttpStatusCode.NotAcceptable, "Post is NotAcceptable");
+            throw new StatusCodeException(HttpStatusCode.NotAcceptable,
+                "Post is NotAcceptable");
         }
 
         await _unitOfWork.Posts.UpdateAsync(post);
-        throw new StatusCodeException(HttpStatusCode.OK, "Post is Successfully Updated");
+        throw new StatusCodeException(HttpStatusCode.OK,
+            "Post is Successfully Updated");
     }
 
     public async Task DeleteAsync(int id)
@@ -116,16 +127,19 @@ public class PostService(IUnitOfWork unitOfWork,
         var post = await _unitOfWork.Posts.GetByIdAsync(id);
         if (post is null)
         {
-            throw new StatusCodeException(HttpStatusCode.NotFound, "Post is not found");
+            throw new StatusCodeException(HttpStatusCode.NotFound,
+                "Post is not found");
         }
 
         var res = await _fileService.DeleteFileAsync(post.FilePath);
         if (!res)
         {
-            throw new StatusCodeException(HttpStatusCode.BadRequest, "Post`s file is Not Deleted");
+            throw new StatusCodeException(HttpStatusCode.BadRequest,
+                "Post`s file is Not Deleted");
         }
         await _unitOfWork.Posts.DeleteAsync(post);
 
-        throw new StatusCodeException(HttpStatusCode.OK, "Post is Successfully deleted");
+        throw new StatusCodeException(HttpStatusCode.OK, 
+           "Post is Successfully deleted");
     }
 }

@@ -1,8 +1,4 @@
 ﻿using System.Net;
-using System.Security.Cryptography.X509Certificates;
-using Microsoft.AspNetCore.Identity;
-using Pomelo.EntityFrameworkCore.MySql.Storage.Internal.Json;
-
 using SChainIntro_MVC.BLL.Common.Exceptions;
 using SChainIntro_MVC.BLL.Common.Security;
 using SChainIntro_MVC.BLL.DTOs.StaticDtos;
@@ -12,6 +8,7 @@ using SChainIntro_MVC.Data.Interfaces;
 
 
 namespace SChainIntro_MVC.BLL.Services;
+
 
 public class StaticsService(IUnitOfWork unitOfWork,
                             IFileService fileService,
@@ -117,7 +114,8 @@ public class StaticsService(IUnitOfWork unitOfWork,
             "Statics is Successfully Updated");
     }
 
-    public async Task UpdateMainAsync(UpdateAdditionalDto updateAdditionalDto, string password)
+    public async Task UpdateMainAsync(UpdateAdditionalDto updateAdditionalDto,
+                                      string password)
     {
         var staticFile = await GetAsync();
 

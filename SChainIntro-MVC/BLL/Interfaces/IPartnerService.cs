@@ -1,6 +1,8 @@
 using SChainIntro_MVC.BLL.DTOs.PartnerDtos;
 
+
 namespace SChainIntro_MVC.BLL.Interfaces;
+
 
 public interface IPartnerService
 {
