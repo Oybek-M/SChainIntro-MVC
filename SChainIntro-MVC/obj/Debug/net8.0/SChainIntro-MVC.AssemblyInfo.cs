@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SChainIntro-MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5dd852b5df32d5c9d81a4eb7c2fc4cb9ffbd36c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fead37250433a3353ab41c08efc923040d6085ba")]
 [assembly: System.Reflection.AssemblyProductAttribute("SChainIntro-MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SChainIntro-MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

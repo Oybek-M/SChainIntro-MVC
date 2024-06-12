@@ -9,16 +9,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="631c4cf8-e970-4ccb-89cc-d2e20fbc18d6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SChainIntro-MVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SChainIntro-MVC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/Areas/Admin/Data/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/Areas/Admin/Data/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/Migrations/20240601111814_initial.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/Migrations/20240601111814_initial.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/SChainIntro-MVC.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/SChainIntro-MVC.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/bin/Debug/net8.0/SChainIntro-MVC.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/bin/Debug/net8.0/SChainIntro-MVC.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/bin/Debug/net8.0/SChainIntro-MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/bin/Debug/net8.0/SChainIntro-MVC.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/bin/Debug/net8.0/SChainIntro-MVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/bin/Debug/net8.0/SChainIntro-MVC.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/bin/Debug/net8.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.RazorAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.RazorAssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/SChainIntro-MVC.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/ref/SChainIntro-MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/ref/SChainIntro-MVC.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/refint/SChainIntro-MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/refint/SChainIntro-MVC.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/scopedcss/bundle/SChainIntro-MVC.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/scopedcss/bundle/SChainIntro-MVC.styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/scopedcss/projectbundle/SChainIntro-MVC.bundle.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/Debug/net8.0/scopedcss/projectbundle/SChainIntro-MVC.bundle.scp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/SChainIntro-MVC.csproj.EntityFrameworkCore.targets" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/SChainIntro-MVC.csproj.EntityFrameworkCore.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/SChainIntro-MVC.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/SChainIntro-MVC.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/SChainIntro-MVC.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/SChainIntro-MVC.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/SChainIntro-MVC.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/SChainIntro-MVC.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SChainIntro-MVC/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SChainIntro-MVC/obj/rider.project.restore.info" afterDir="false" />
     </list>
@@ -26,6 +49,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,6 +90,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.SChainIntro-MVC: https.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.localhost:5297.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -73,7 +100,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Inspections-C++&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MonitoringPageId&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -81,13 +108,13 @@
       &quot;PLAIN_TEXT&quot;
     ],
     &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/oybekmuxtaraliyevgmail.com/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/oybekmuxtaraliyevgmail.com/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache&quot;,
-      &quot;/Users/oybekmuxtaraliyevgmail.com/.local/share/Symbols/src&quot;
+      &quot;/Users/oybekmuxtaraliyevgmail.com/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/oybekmuxtaraliyevgmail.com/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
+      &quot;/Users/oybekmuxtaraliyevgmail.com/Library/Application Support/Symbols/src&quot;
     ]
   }
 }</component>
-  <component name="RunManager" selected="JavaScript Debug.localhost:5297">
+  <component name="RunManager" selected=".NET Launch Settings Profile.SChainIntro-MVC: https">
     <configuration name="localhost:5297" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:5297">
       <method v="2" />
     </configuration>
@@ -141,6 +168,8 @@
       <workItem from="1717391088937" duration="4028000" />
       <workItem from="1717470082388" duration="834000" />
       <workItem from="1718078717458" duration="8000" />
+      <workItem from="1718164278182" duration="1256000" />
+      <workItem from="1718165646956" duration="6177000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
