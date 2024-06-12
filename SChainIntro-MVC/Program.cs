@@ -13,7 +13,7 @@ builder.Services.AddControllersWithViews();
 
 
 // Connection String | DataBase with MySQL:
-var connectionString = builder.Configuration.GetConnectionString("LocalDB1");
+var connectionString = builder.Configuration.GetConnectionString("LocalDB3");
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
