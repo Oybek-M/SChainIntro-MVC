@@ -84,7 +84,7 @@ public class AuthService(IUnitOfWork unitOfWork,
             };
         }
 
-        if (!PasswordHasher.VerifyPassword(loginDto.Password, user.Password))
+        if (PasswordHasher.VerifyPassword(loginDto.Password, user.Password))
         {
             return new AuthResult()
             {

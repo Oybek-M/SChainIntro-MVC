@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\desktop\\oybek\\projects\\schainintro-mvc\\schainintro-mvc\\bll\\services\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\bll\\services\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\desktop\\oybek\\projects\\schainintro-mvc\\schainintro-mvc\\bll\\interfaces\\iserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\bll\\interfaces\\iserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\desktop\\oybek\\projects\\schainintro-mvc\\schainintro-mvc\\areas\\admin\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\areas\\admin\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ServiceService.cs",
-              "DocumentMoniker": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\Services\\ServiceService.cs",
-              "RelativeDocumentMoniker": "SChainIntro-MVC\\BLL\\Services\\ServiceService.cs",
-              "ToolTip": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\Services\\ServiceService.cs",
-              "RelativeToolTip": "SChainIntro-MVC\\BLL\\Services\\ServiceService.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\Areas\\Admin\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SChainIntro-MVC\\Areas\\Admin\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\Areas\\Admin\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "SChainIntro-MVC\\Areas\\Admin\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCEAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T03:55:50.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IServiceService.cs",
-              "DocumentMoniker": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\Interfaces\\IServiceService.cs",
-              "RelativeDocumentMoniker": "SChainIntro-MVC\\BLL\\Interfaces\\IServiceService.cs",
-              "ToolTip": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\Interfaces\\IServiceService.cs",
-              "RelativeToolTip": "SChainIntro-MVC\\BLL\\Interfaces\\IServiceService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T03:55:38.84Z",
+              "WhenOpened": "2024-06-14T11:30:02.132Z",
               "EditorCaption": ""
             }
           ]
