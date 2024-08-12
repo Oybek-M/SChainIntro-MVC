@@ -93,7 +93,7 @@ public class AuthService(IUnitOfWork unitOfWork,
             };
         }
 
-        if (user.UserRole != Role.Owner && role != Role.User)
+        if (user.UserRole != Role.Owner && user.UserRole != Role.SuperAdmin)
         {
             return new AuthResult()
             {

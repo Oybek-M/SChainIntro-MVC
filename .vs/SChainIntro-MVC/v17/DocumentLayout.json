@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\documents\\projects\\schainintro-mvc\\schainintro-mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\documents\\projects\\schainintro-mvc\\schainintro-mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\documents\\projects\\schainintro-mvc\\schainintro-mvc\\areas\\admin\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\areas\\admin\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\documents\\projects\\schainintro-mvc\\schainintro-mvc\\bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\Areas\\Admin\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "SChainIntro-MVC\\Areas\\Admin\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\Areas\\Admin\\Data\\AppDbContext.cs",
               "RelativeToolTip": "SChainIntro-MVC\\Areas\\Admin\\Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBgAAABBAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA5wBwAAABsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T10:22:56.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\Program.cs",
-              "RelativeDocumentMoniker": "SChainIntro-MVC\\Program.cs",
-              "ToolTip": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\Program.cs",
-              "RelativeToolTip": "SChainIntro-MVC\\Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T10:21:06.044Z",
+              "WhenOpened": "2024-08-12T10:44:39.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\appsettings.json",
-              "RelativeDocumentMoniker": "SChainIntro-MVC\\appsettings.json",
-              "ToolTip": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\appsettings.json",
-              "RelativeToolTip": "SChainIntro-MVC\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-12T10:20:51.197Z",
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "SChainIntro-MVC\\BLL\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\Services\\AuthService.cs",
+              "RelativeToolTip": "SChainIntro-MVC\\BLL\\Services\\AuthService.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAMwF8AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T10:36:07.217Z",
               "EditorCaption": ""
             }
           ]
