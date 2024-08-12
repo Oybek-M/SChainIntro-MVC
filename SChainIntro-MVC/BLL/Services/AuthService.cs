@@ -93,7 +93,7 @@ public class AuthService(IUnitOfWork unitOfWork,
             };
         }
 
-        if (user.UserRole != Role.Owner && user.UserRole != Role.SuperAdmin)
+        if (user.UserRole != role && user.UserRole != Role.SuperAdmin && user.UserRole != Role.Owner)
         {
             return new AuthResult()
             {
@@ -118,7 +118,7 @@ public class AuthService(IUnitOfWork unitOfWork,
             await _httpContextAccessor.HttpContext!.SignInAsync(role.ToString(), principal, new AuthenticationProperties
             {
                 IsPersistent = true,
-                ExpiresUtc = DateTime.Now.AddDays(1)
+                ExpiresUtc = DateTime.Now.AddHours(1)
             });
         }
         else
