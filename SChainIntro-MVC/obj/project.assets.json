@@ -8795,24 +8795,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Oybek\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Oybek\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\SChainIntro-MVC.csproj",
+      "projectUniqueName": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\SChainIntro-MVC.csproj",
       "projectName": "SChainIntro-MVC",
-      "projectPath": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\SChainIntro-MVC.csproj",
+      "projectPath": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\SChainIntro-MVC.csproj",
       "packagesPath": "C:\\Users\\Oybek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\obj\\",
+      "outputPath": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\Oybek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8904,7 +8899,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

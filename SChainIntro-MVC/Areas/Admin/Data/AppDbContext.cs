@@ -31,7 +31,7 @@ public class AppDbContext(DbContextOptions<AppDbContext> options)
                 Gender = Gender.Male,
                 IsTeam = true,
                 TeamType = "Owner/CEO",
-                IsActive = true
+                IsActive = true 
             });
     }
 }

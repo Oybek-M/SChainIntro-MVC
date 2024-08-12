@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lr08xDsQOac=",
+  "dgSpecHash": "4A5Z6hYaALE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Oybek\\Desktop\\Oybek\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\SChainIntro-MVC.csproj",
+  "projectFilePath": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\SChainIntro-MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Oybek\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Oybek\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
