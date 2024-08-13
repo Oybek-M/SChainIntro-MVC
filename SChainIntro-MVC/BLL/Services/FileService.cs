@@ -5,6 +5,12 @@ using SChainIntro_MVC.BLL.Interfaces;
 
 namespace SChainIntro_MVC.BLL.Services;
 
+// Folder Names:
+// For Post: 'PostFiles'
+// For Statics: 'StaticFiles'
+// For userImages: 'UserImages'
+// For videoFiles: 'VideoFiles'
+
 
 public class FileService(IWebHostEnvironment webHostEnvironment) : IFileService
 {
@@ -12,10 +18,14 @@ public class FileService(IWebHostEnvironment webHostEnvironment) : IFileService
 
     public async Task<string> UploadFileAsync(string folderName, IFormFile file)
     {
-        if (file == null || string.IsNullOrEmpty(folderName))
+        if (file == null)
         {
             throw new ArgumentNullException(nameof(file),
-                "File or folder name cannot be null.");
+                "File cannot be null.");
+        }
+        if (string.IsNullOrEmpty(folderName))
+        {
+            throw new ArgumentNullException(folderName, "Folder name cannot be null.");
         }
 
 
@@ -40,7 +50,6 @@ public class FileService(IWebHostEnvironment webHostEnvironment) : IFileService
             throw new ArgumentNullException(nameof(filePath),
                 "File path cannot be null.");
         }
-            
 
         var fullPath = Path.Combine(_webHostEnvironment.WebRootPath, filePath.TrimStart('~', '/'));
 
