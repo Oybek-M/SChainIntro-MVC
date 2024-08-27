@@ -28,7 +28,6 @@ public class FileService(IWebHostEnvironment webHostEnvironment) : IFileService
             throw new ArgumentNullException(folderName, "Folder name cannot be null.");
         }
 
-
         var wwwRootFolder = _webHostEnvironment.WebRootPath;
         var uniqueFileName = Guid.NewGuid().ToString() + "_" + file.FileName;
         var filePath = Path.Combine(wwwRootFolder, folderName, uniqueFileName);
