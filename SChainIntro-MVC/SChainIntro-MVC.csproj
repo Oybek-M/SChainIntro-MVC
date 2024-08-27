@@ -33,6 +33,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="wwwroot\fonts\" />
       <Folder Include="wwwroot\VideoFiles\" />
       <Folder Include="wwwroot\PostFiles\" />
       <Folder Include="wwwroot\UserImages\" />
@@ -75,6 +76,7 @@
       <_ContentIncludedByDefault Remove="Areas\Admin\Views\Colors\Add.cshtml" />
       <_ContentIncludedByDefault Remove="Areas\Admin\Views\Colors\Edit.cshtml" />
       <_ContentIncludedByDefault Remove="Areas\Admin\Views\Colors\Images.cshtml" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\owl.css" />
     </ItemGroup>
 
 </Project>
