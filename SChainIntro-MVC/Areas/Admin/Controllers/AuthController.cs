@@ -7,7 +7,7 @@ using SChainIntro_MVC.Data;
 namespace SChainIntro_MVC.Areas.Admin.Controllers;
 
 
-[Area("admin")]
+[Area("Admin")]
 public class AuthController(IAuthService authService)
     : Controller
 {
@@ -25,7 +25,7 @@ public class AuthController(IAuthService authService)
         var result = await _authService.LoginAsync(dto, Role.Admin);
         if (result.IsSucces)
         {
-            return RedirectToAction("index", "home");
+            return RedirectToAction("Index", "Home");
         }
 
         dto.Error = result.ErrorMessage;
@@ -35,6 +35,6 @@ public class AuthController(IAuthService authService)
     public IActionResult Logout()
     {
         _authService.LogoutAsync(Role.Admin);
-        return RedirectToAction("login");
+        return RedirectToAction("Login");
     }
 }
