@@ -1,34 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Saemyoung\\SChainIntro-MVC\\",
+  "WorkspaceRootPath": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|e:\\saemyoung\\schainintro-mvc\\schainintro-mvc\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\documents\\projects\\schainintro-mvc\\schainintro-mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|e:\\saemyoung\\schainintro-mvc\\schainintro-mvc\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\documents\\projects\\schainintro-mvc\\schainintro-mvc\\bll\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\bll\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|e:\\saemyoung\\schainintro-mvc\\schainintro-mvc\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|e:\\saemyoung\\schainintro-mvc\\schainintro-mvc\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|e:\\saemyoung\\schainintro-mvc\\schainintro-mvc\\areas\\admin\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\documents\\projects\\schainintro-mvc\\schainintro-mvc\\areas\\admin\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\areas\\admin\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|e:\\saemyoung\\schainintro-mvc\\schainintro-mvc\\bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\documents\\projects\\schainintro-mvc\\schainintro-mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|e:\\saemyoung\\schainintro-mvc\\schainintro-mvc\\areas\\admin\\data\\enums\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\areas\\admin\\data\\enums\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\documents\\projects\\schainintro-mvc\\schainintro-mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|c:\\users\\oybek\\documents\\projects\\schainintro-mvc\\schainintro-mvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F65374D-9E4D-4515-9122-65DA07C40D95}|SChainIntro-MVC\\SChainIntro-MVC.csproj|solutionrelative:schainintro-mvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,134 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\Saemyoung\\SChainIntro-MVC\\SChainIntro-MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "SChainIntro-MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\Saemyoung\\SChainIntro-MVC\\SChainIntro-MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "SChainIntro-MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-12T12:24:43.538Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\Program.cs",
+              "RelativeDocumentMoniker": "SChainIntro-MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\Program.cs*",
+              "RelativeToolTip": "SChainIntro-MVC\\Program.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T12:38:50.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "SChainIntro-MVC\\BLL\\Services\\FileService.cs",
+              "ToolTip": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\Services\\FileService.cs",
+              "RelativeToolTip": "SChainIntro-MVC\\BLL\\Services\\FileService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T20:30:14.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "E:\\Saemyoung\\SChainIntro-MVC\\SChainIntro-MVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "SChainIntro-MVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ToolTip": "E:\\Saemyoung\\SChainIntro-MVC\\SChainIntro-MVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "SChainIntro-MVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-12T12:24:30.644Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "E:\\Saemyoung\\SChainIntro-MVC\\SChainIntro-MVC\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "SChainIntro-MVC\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "ToolTip": "E:\\Saemyoung\\SChainIntro-MVC\\SChainIntro-MVC\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "SChainIntro-MVC\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-12T12:24:29.86Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Saemyoung\\SChainIntro-MVC\\SChainIntro-MVC\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "SChainIntro-MVC\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ToolTip": "E:\\Saemyoung\\SChainIntro-MVC\\SChainIntro-MVC\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "SChainIntro-MVC\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-12T12:24:23.822Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Gender.cs",
-              "DocumentMoniker": "E:\\Saemyoung\\SChainIntro-MVC\\SChainIntro-MVC\\Areas\\Admin\\Data\\Enums\\Gender.cs",
-              "RelativeDocumentMoniker": "SChainIntro-MVC\\Areas\\Admin\\Data\\Enums\\Gender.cs",
-              "ToolTip": "E:\\Saemyoung\\SChainIntro-MVC\\SChainIntro-MVC\\Areas\\Admin\\Data\\Enums\\Gender.cs",
-              "RelativeToolTip": "SChainIntro-MVC\\Areas\\Admin\\Data\\Enums\\Gender.cs",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\Areas\\Admin\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "SChainIntro-MVC\\Areas\\Admin\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\Areas\\Admin\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "SChainIntro-MVC\\Areas\\Admin\\Controllers\\AuthController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T11:09:14.593Z"
+              "WhenOpened": "2024-08-13T20:29:34.166Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "E:\\Saemyoung\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "SChainIntro-MVC\\BLL\\Services\\AuthService.cs",
-              "ToolTip": "E:\\Saemyoung\\SChainIntro-MVC\\SChainIntro-MVC\\BLL\\Services\\AuthService.cs",
-              "RelativeToolTip": "SChainIntro-MVC\\BLL\\Services\\AuthService.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAADgv3gAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T11:05:24.387Z"
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "SChainIntro-MVC\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "SChainIntro-MVC\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAACUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-13T15:30:04.728Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "E:\\Saemyoung\\SChainIntro-MVC\\SChainIntro-MVC\\Areas\\Admin\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "SChainIntro-MVC\\Areas\\Admin\\Controllers\\AuthController.cs",
-              "ToolTip": "E:\\Saemyoung\\SChainIntro-MVC\\SChainIntro-MVC\\Areas\\Admin\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "SChainIntro-MVC\\Areas\\Admin\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T11:04:59.528Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 187,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SChainIntro-MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SChainIntro-MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T13:43:04.906Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{4a9b7e51-aa16-11d0-a8c5-00a0c921a4d2}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SChainIntro-MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Oybek\\Documents\\Projects\\SChainIntro-MVC\\SChainIntro-MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SChainIntro-MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T13:06:02.532Z"
             }
           ]
         }
